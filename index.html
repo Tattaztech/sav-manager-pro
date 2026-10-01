@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SAV Manager Pro &ndash; Account Deletion</title>
+
   <style>
     :root {
       color-scheme: light;
@@ -28,10 +29,29 @@
       line-height: 1.6;
     }
 
+    nav {
+      width: min(920px, calc(100% - 32px));
+      margin: 24px auto 0;
+      padding: 14px 18px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    nav a {
+      color: var(--brand);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     main {
       width: min(920px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 40px 0;
+      padding: 16px 0 40px;
     }
 
     header,
@@ -90,10 +110,8 @@
       font-weight: 700;
     }
 
-    code {
-      background: #eef2f8;
-      border-radius: 4px;
-      padding: 2px 5px;
+    .support-box a {
+      color: var(--brand);
     }
 
     footer {
@@ -104,30 +122,36 @@
     }
   </style>
 </head>
+
 <body>
+
   <nav>
     <a href="privacy-policy.html">Privacy Policy</a>
-    |
+    &nbsp;|&nbsp;
     <a href="suppression-compte.html">Account Deletion</a>
   </nav>
+
   <main>
+
     <header>
       <h1>SAV Manager Pro &ndash; Account Deletion</h1>
       <p class="developer"><strong>Developer:</strong> TATAZ TECH</p>
       <p>
-        This page explains how SAV Manager Pro users can request deletion of
-        their account and associated application data.
+        This page explains how SAV Manager Pro users can request deletion
+        of their account and associated application data.
       </p>
     </header>
 
     <section aria-labelledby="delete-from-app">
       <h2 id="delete-from-app">1. Delete your account from the application</h2>
+
       <ol>
         <li>Open <strong>SAV Manager Pro</strong>.</li>
         <li>Go to <strong>Settings</strong>.</li>
         <li>Select <strong>Delete my account</strong>.</li>
         <li>Confirm the deletion when prompted.</li>
       </ol>
+
       <p class="warning">
         Account deletion is permanent and cannot be undone.
       </p>
@@ -135,13 +159,19 @@
 
     <section aria-labelledby="delete-by-email">
       <h2 id="delete-by-email">2. If you no longer have access to the app</h2>
+
       <p>
-        You may request account deletion by contacting the developer support
-        email address below.
+        You may request account deletion by contacting the developer
+        support email address below.
       </p>
+
       <p class="support-box">
-        Support email: <span>oami.familly@gmail.com</span>
+        Support email:
+        <a href="mailto:oami.familly@gmail.com">
+          oami.familly@gmail.com
+        </a>
       </p>
+
       <p>
         For verification, the request must be sent from the email address
         associated with your SAV Manager Pro account.
@@ -150,31 +180,39 @@
 
     <section aria-labelledby="deleted-data">
       <h2 id="deleted-data">Data deleted</h2>
-      <p>When an account deletion request is completed, the following data is deleted where applicable:</p>
+
+      <p>
+        When an account deletion request is completed, the following data
+        is deleted where applicable:
+      </p>
+
       <ul>
-        <li>user account/profile;</li>
-        <li>associated company account when applicable;</li>
-        <li>technician accounts associated with that company when applicable;</li>
-        <li>customers;</li>
-        <li>equipment;</li>
-        <li>interventions;</li>
+        <li>User account and profile;</li>
+        <li>Associated company account, where applicable;</li>
+        <li>Technician accounts associated with that company, where applicable;</li>
+        <li>Customers;</li>
+        <li>Equipment;</li>
+        <li>Interventions;</li>
         <li>Inventory data, spare parts quantities, and inventory movements;</li>
-        <li>other application data associated with the deleted company/account.</li>
+        <li>Other application data associated with the deleted company or account.</li>
       </ul>
     </section>
 
     <section aria-labelledby="retention">
-      <h2 id="retention">Retention</h2>
+      <h2 id="retention">Data Retention</h2>
+
       <p>
-        Deletion is definitive. If some data must be retained for legal,
-        accounting, fraud prevention, or security reasons, it may be retained
-        only for the legally required period and only for that purpose.
+        Account deletion is permanent. If certain data must be retained
+        for legal, accounting, fraud prevention, or security purposes,
+        it will be retained only for the legally required period and
+        only for those purposes.
       </p>
     </section>
 
     <footer>
       <p>SAV Manager Pro &ndash; TATAZ TECH</p>
     </footer>
+
   </main>
 </body>
 </html>
